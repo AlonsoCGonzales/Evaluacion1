@@ -1,3 +1,7 @@
+/**
+ * https://github.com/AlonsoCGonzales/Evaluacion1
+ */
+
 const cuadro_btn = document.querySelectorAll(".cuadro");
 const info = document.getElementById("juegoInfo");
 const juego_btn = document.getElementById("juegoBoton")

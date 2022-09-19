@@ -1,0 +1,66 @@
+/* https://github.com/AlonsoCGonzales/Evaluacion-1 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorJuego{
+    height:100px;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+}
+
+.juegoTitulo, .juegoInfo{
+    text-align: center;
+}
+
+.juegoCuadricula{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:0;
+}
+
+.cuadro{
+    width:100px;
+    height: 100px;
+    border: 1px solid rgb(168, 168, 168);
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2741f;
+    /*background-image: url(logo.png);*/
+    background-position: 10px 5px;
+    transition: background-color ease-in 0.2s;
+}
+
+.cuadro:hover{
+    background-color:#cccc;
+}
+
+.juegoBoton{
+    display:inline-flex;
+    padding: 15px 15px;
+    background: purple;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+    transition:color ease-out 0.3s;
+}
+
+.juegoBoton:hover{
+    background: #f2741f;
+    color: lightgray;
+    border: 1px solid purple;
+}
